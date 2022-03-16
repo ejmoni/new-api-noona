@@ -18,7 +18,7 @@ const render = () =>{
     newsHTML = news.map(item=>{
         return`<div class="row news">
         <div class="col-lg-4">
-            <img class="${item.media}"/>
+            <img class = "news-img-size" src="${item.media}"/>
         </div>
         <div class="col-lg-8">
             <h2>${item.title}</h2>
